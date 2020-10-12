@@ -27,5 +27,5 @@ function removeClass(e) {
   
   const btn = document.querySelectorAll("div[data-key]");
   btn.forEach(item => item.addEventListener("transitionend", removeClass)); 
-  btn.forEach(item => item.addEventListener("click", playClickSound));
+  btn.forEach(item => item.addEventListener("touchstart", playClickSound));
   window.addEventListener("keydown", playKeySound);
