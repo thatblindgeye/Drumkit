@@ -1,0 +1,1 @@
+Test for the Drumkit project from Javascript30.

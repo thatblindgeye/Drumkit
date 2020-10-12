@@ -1,4 +1,4 @@
-"strict use";
+"use strict";
 
 function removeClass(e) {
     if(e.propertyName !== "transform") return;
